@@ -1,0 +1,25 @@
+{ api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, auto_public_ip = None Bool
+, availability_zone = None Text
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, delete_public_ip = None Bool
+, flavor = None Text
+, interface = None ./interface.dhall
+, listeners = None (List Text)
+, public_ip_address = None Text
+, public_network = None Text
+, region_name = None Text
+, state = None ./state.dhall
+, timeout = None Natural
+, validate_certs = None Bool
+, vip_address = None Text
+, vip_network = None Text
+, vip_port = None Text
+, vip_subnet = None Text
+, wait = None Bool
+}

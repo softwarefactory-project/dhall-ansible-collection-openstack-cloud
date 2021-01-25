@@ -1,0 +1,1 @@
+< ami | aki | ari | bare | ovf | ova | docker >

@@ -1,0 +1,21 @@
+{ admin_state_up = None Bool
+, api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, availability_zone = None Text
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, enable_snat = None Bool
+, external_fixed_ips = None (List Text)
+, interface = None ./interface.dhall
+, interfaces = None (List Text)
+, network = None Text
+, project = None Text
+, region_name = None Text
+, state = None ./state.dhall
+, timeout = None Natural
+, validate_certs = None Bool
+, wait = None Bool
+}

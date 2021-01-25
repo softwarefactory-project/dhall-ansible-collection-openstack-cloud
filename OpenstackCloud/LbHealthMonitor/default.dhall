@@ -1,0 +1,21 @@
+{ admin_state_up = None Bool
+, api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, availability_zone = None Text
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, expected_codes = None Text
+, http_method = None ./http_method.dhall
+, interface = None ./interface.dhall
+, max_retries_down = None Text
+, region_name = None Text
+, state = None ./state.dhall
+, timeout = None Natural
+, type = None ./type.dhall
+, url_path = None Text
+, validate_certs = None Bool
+, wait = None Bool
+}

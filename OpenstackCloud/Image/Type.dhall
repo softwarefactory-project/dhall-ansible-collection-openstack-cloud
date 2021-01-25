@@ -1,0 +1,30 @@
+{ api_timeout : Optional Natural
+, auth : Optional ../JSON.dhall
+, auth_type : Optional Text
+, availability_zone : Optional Text
+, ca_cert : Optional Text
+, checksum : Optional Text
+, client_cert : Optional Text
+, client_key : Optional Text
+, cloud : Optional Text
+, container_format : Optional ./container_format.dhall
+, disk_format : Optional ./disk_format.dhall
+, filename : Optional Text
+, id : Optional Text
+, interface : Optional ./interface.dhall
+, is_public : Optional Bool
+, kernel : Optional Text
+, min_disk : Optional Natural
+, min_ram : Optional Natural
+, name : Text
+, owner : Optional Text
+, properties : Optional ../JSON.dhall
+, protected : Optional Bool
+, ramdisk : Optional Text
+, region_name : Optional Text
+, state : Optional ./state.dhall
+, timeout : Optional Natural
+, validate_certs : Optional Bool
+, volume : Optional Text
+, wait : Optional Bool
+}

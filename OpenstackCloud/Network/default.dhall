@@ -1,0 +1,25 @@
+{ admin_state_up = None Bool
+, api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, availability_zone = None Text
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, dns_domain = None Text
+, external = None Bool
+, interface = None ./interface.dhall
+, mtu_size = None Natural
+, port_security_enabled = None Bool
+, project = None Text
+, provider_network_type = None Text
+, provider_physical_network = None Text
+, provider_segmentation_id = None Natural
+, region_name = None Text
+, shared = None Bool
+, state = None ./state.dhall
+, timeout = None Natural
+, validate_certs = None Bool
+, wait = None Bool
+}
