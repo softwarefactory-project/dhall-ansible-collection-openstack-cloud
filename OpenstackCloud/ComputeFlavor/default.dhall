@@ -1,0 +1,24 @@
+{ api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, availability_zone = None Text
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, disk = None Natural
+, ephemeral = None Natural
+, extra_specs = None ../JSON.dhall
+, flavorid = None Text
+, interface = None ./interface.dhall
+, is_public = None Bool
+, ram = None Natural
+, region_name = None Text
+, rxtx_factor = None Double
+, state = None ./state.dhall
+, swap = None Natural
+, timeout = None Natural
+, validate_certs = None Bool
+, vcpus = None Natural
+, wait = None Bool
+}

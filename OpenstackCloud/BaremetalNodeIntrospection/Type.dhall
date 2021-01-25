@@ -1,0 +1,21 @@
+{ api_timeout : Optional Natural
+, auth : Optional ../JSON.dhall
+, auth_type : Optional Text
+, availability_zone : Optional Text
+, ca_cert : Optional Text
+, client_cert : Optional Text
+, client_key : Optional Text
+, cloud : Optional Text
+, concurrency : Optional Natural
+, interface : Optional ./interface.dhall
+, ironic_url : Optional Text
+, max_retries : Optional Natural
+, node_timeout : Optional Natural
+, node_uuids : List Text
+, quiet : Optional Bool
+, region_name : Optional Text
+, retry_timeout : Optional Natural
+, timeout : Optional Natural
+, validate_certs : Optional Bool
+, wait : Optional Bool
+}

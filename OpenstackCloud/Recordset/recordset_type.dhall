@@ -1,0 +1,1 @@
+< a | aaaa | mx | cname | txt | ns | srv | ptr | caa >

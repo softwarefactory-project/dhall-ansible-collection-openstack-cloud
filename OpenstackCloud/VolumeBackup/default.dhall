@@ -1,0 +1,21 @@
+{ api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, availability_zone = None Text
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, display_description = None Text
+, force = None Bool
+, incremental = None Bool
+, interface = None ./interface.dhall
+, metadata = None ../JSON.dhall
+, region_name = None Text
+, snapshot = None Text
+, state = None ./state.dhall
+, timeout = None Natural
+, validate_certs = None Bool
+, volume = None Text
+, wait = None Bool
+}

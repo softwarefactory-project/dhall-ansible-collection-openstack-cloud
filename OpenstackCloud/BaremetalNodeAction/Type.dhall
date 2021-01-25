@@ -1,0 +1,24 @@
+{ api_timeout : Optional Natural
+, auth : Optional ../JSON.dhall
+, auth_type : Optional Text
+, availability_zone : Optional Text
+, ca_cert : Optional Text
+, client_cert : Optional Text
+, client_key : Optional Text
+, cloud : Optional Text
+, config_drive : Optional Text
+, deploy : Optional Text
+, instance_info : Optional ../JSON.dhall
+, interface : Optional ./interface.dhall
+, ironic_url : Optional Text
+, maintenance : Optional Text
+, maintenance_reason : Optional Text
+, name : Optional Text
+, power : Optional Text
+, region_name : Optional Text
+, state : Optional Text
+, timeout : Optional Natural
+, uuid : Optional Text
+, validate_certs : Optional Bool
+, wait : Optional Bool
+}

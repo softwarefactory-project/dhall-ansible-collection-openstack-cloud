@@ -1,0 +1,1 @@
+< normal | direct | direct-physical | macvtap | baremetal | virtio-forwarder >

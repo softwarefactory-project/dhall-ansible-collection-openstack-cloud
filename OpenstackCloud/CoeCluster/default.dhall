@@ -1,0 +1,23 @@
+{ api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, availability_zone = None Text
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, discovery_url = None Text
+, docker_volume_size = None Natural
+, flavor_id = None Text
+, interface = None ./interface.dhall
+, keypair = None Text
+, labels = None Text
+, master_count = None Natural
+, master_flavor_id = None Text
+, node_count = None Natural
+, region_name = None Text
+, state = None ./state.dhall
+, timeout = None Natural
+, validate_certs = None Bool
+, wait = None Bool
+}

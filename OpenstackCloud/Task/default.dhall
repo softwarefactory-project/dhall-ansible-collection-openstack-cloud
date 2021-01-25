@@ -1,0 +1,73 @@
+{ `openstack.cloud.auth` = None ../Auth/Type.dhall
+, `openstack.cloud.baremetal_inspect` = None ../BaremetalInspect/Type.dhall
+, `openstack.cloud.baremetal_node` = None ../BaremetalNode/Type.dhall
+, `openstack.cloud.baremetal_node_action` =
+    None ../BaremetalNodeAction/Type.dhall
+, `openstack.cloud.baremetal_node_introspection` =
+    None ../BaremetalNodeIntrospection/Type.dhall
+, `openstack.cloud.catalog_service` = None ../CatalogService/Type.dhall
+, `openstack.cloud.coe_cluster` = None ../CoeCluster/Type.dhall
+, `openstack.cloud.coe_cluster_template` = None ../CoeClusterTemplate/Type.dhall
+, `openstack.cloud.compute_flavor` = None ../ComputeFlavor/Type.dhall
+, `openstack.cloud.compute_flavor_info` = None ../ComputeFlavorInfo/Type.dhall
+, `openstack.cloud.config` = None ../Config/Type.dhall
+, `openstack.cloud.dns_zone` = None ../DnsZone/Type.dhall
+, `openstack.cloud.endpoint` = None ../Endpoint/Type.dhall
+, `openstack.cloud.federation_idp` = None ../FederationIdp/Type.dhall
+, `openstack.cloud.federation_idp_info` = None ../FederationIdpInfo/Type.dhall
+, `openstack.cloud.federation_mapping` = None ../FederationMapping/Type.dhall
+, `openstack.cloud.federation_mapping_info` =
+    None ../FederationMappingInfo/Type.dhall
+, `openstack.cloud.floating_ip` = None ../FloatingIp/Type.dhall
+, `openstack.cloud.group_assignment` = None ../GroupAssignment/Type.dhall
+, `openstack.cloud.host_aggregate` = None ../HostAggregate/Type.dhall
+, `openstack.cloud.identity_domain` = None ../IdentityDomain/Type.dhall
+, `openstack.cloud.identity_domain_info` = None ../IdentityDomainInfo/Type.dhall
+, `openstack.cloud.identity_group` = None ../IdentityGroup/Type.dhall
+, `openstack.cloud.identity_group_info` = None ../IdentityGroupInfo/Type.dhall
+, `openstack.cloud.identity_role` = None ../IdentityRole/Type.dhall
+, `openstack.cloud.identity_user` = None ../IdentityUser/Type.dhall
+, `openstack.cloud.identity_user_info` = None ../IdentityUserInfo/Type.dhall
+, `openstack.cloud.image` = None ../Image/Type.dhall
+, `openstack.cloud.image_info` = None ../ImageInfo/Type.dhall
+, `openstack.cloud.keypair` = None ../Keypair/Type.dhall
+, `openstack.cloud.keystone_federation_protocol` =
+    None ../KeystoneFederationProtocol/Type.dhall
+, `openstack.cloud.keystone_federation_protocol_info` =
+    None ../KeystoneFederationProtocolInfo/Type.dhall
+, `openstack.cloud.lb_health_monitor` = None ../LbHealthMonitor/Type.dhall
+, `openstack.cloud.lb_listener` = None ../LbListener/Type.dhall
+, `openstack.cloud.lb_member` = None ../LbMember/Type.dhall
+, `openstack.cloud.lb_pool` = None ../LbPool/Type.dhall
+, `openstack.cloud.loadbalancer` = None ../Loadbalancer/Type.dhall
+, `openstack.cloud.network` = None ../Network/Type.dhall
+, `openstack.cloud.networks_info` = None ../NetworksInfo/Type.dhall
+, `openstack.cloud.object` = None ../Object/Type.dhall
+, `openstack.cloud.port` = None ../Port/Type.dhall
+, `openstack.cloud.port_info` = None ../PortInfo/Type.dhall
+, `openstack.cloud.project` = None ../Project/Type.dhall
+, `openstack.cloud.project_access` = None ../ProjectAccess/Type.dhall
+, `openstack.cloud.project_info` = None ../ProjectInfo/Type.dhall
+, `openstack.cloud.quota` = None ../Quota/Type.dhall
+, `openstack.cloud.recordset` = None ../Recordset/Type.dhall
+, `openstack.cloud.role_assignment` = None ../RoleAssignment/Type.dhall
+, `openstack.cloud.router` = None ../Router/Type.dhall
+, `openstack.cloud.routers_info` = None ../RoutersInfo/Type.dhall
+, `openstack.cloud.security_group` = None ../SecurityGroup/Type.dhall
+, `openstack.cloud.security_group_rule` = None ../SecurityGroupRule/Type.dhall
+, `openstack.cloud.server` = None ../Server/Type.dhall
+, `openstack.cloud.server_action` = None ../ServerAction/Type.dhall
+, `openstack.cloud.server_group` = None ../ServerGroup/Type.dhall
+, `openstack.cloud.server_info` = None ../ServerInfo/Type.dhall
+, `openstack.cloud.server_metadata` = None ../ServerMetadata/Type.dhall
+, `openstack.cloud.server_volume` = None ../ServerVolume/Type.dhall
+, `openstack.cloud.stack` = None ../Stack/Type.dhall
+, `openstack.cloud.subnet` = None ../Subnet/Type.dhall
+, `openstack.cloud.subnets_info` = None ../SubnetsInfo/Type.dhall
+, `openstack.cloud.volume` = None ../Volume/Type.dhall
+, `openstack.cloud.volume_backup` = None ../VolumeBackup/Type.dhall
+, `openstack.cloud.volume_backup_info` = None ../VolumeBackupInfo/Type.dhall
+, `openstack.cloud.volume_info` = None ../VolumeInfo/Type.dhall
+, `openstack.cloud.volume_snapshot` = None ../VolumeSnapshot/Type.dhall
+, `openstack.cloud.volume_snapshot_info` = None ../VolumeSnapshotInfo/Type.dhall
+}

@@ -1,0 +1,24 @@
+{ api_timeout = None Natural
+, auth = None ../JSON.dhall
+, auth_type = None Text
+, availability_zone = None Text
+, bootable = None Bool
+, ca_cert = None Text
+, client_cert = None Text
+, client_key = None Text
+, cloud = None Text
+, display_description = None Text
+, image = None Text
+, interface = None ./interface.dhall
+, metadata = None ../JSON.dhall
+, region_name = None Text
+, scheduler_hints = None ../JSON.dhall
+, size = None Natural
+, snapshot_id = None Text
+, state = None ./state.dhall
+, timeout = None Natural
+, validate_certs = None Bool
+, volume = None Text
+, volume_type = None Text
+, wait = None Bool
+}
