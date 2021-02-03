@@ -1,1 +1,1 @@
-./OpenstackCloud/package.dhall
+./OpenstackCloud/package.dhall sha256:ced909353da20eb8d8a088c59a91f822ed2e069923a7fd2e901b55398343f3fe
